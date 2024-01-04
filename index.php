@@ -10,9 +10,9 @@ if (isset($_POST['temperature']) && isset($_POST['beatAvg'])) {
 
     // Database credentials
     $servername = "localhost";
-    $username = "wealbykf";
-    $password = "89JK%f6ZoJXtQ$";
-    $dbname = "wealbykf_heartbeat";
+    $username = "your_username";
+    $password = "your_password";
+    $dbname = "your_database";
 
     // Create a connection
     $conn = new mysqli($servername, $username, $password, $dbname);
